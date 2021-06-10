@@ -1,22 +1,8 @@
 {
-  "css.validate": false, // handled by stylelint
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
   "eslint.options": {
     "configFile": ".dev.eslintrc.js"
   },
   "eslint.workingDirectories": [
-    "./web",
-    "./test"
+    "./web"
   ],
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
-  "git.ignoreLimitWarning": true
 }
